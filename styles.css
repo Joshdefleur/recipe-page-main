@@ -17,6 +17,11 @@ h1{
   font-size: 2.3em;
 }
 
+h3{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
 img{
     width: 100%;
 }
@@ -29,8 +34,38 @@ img{
 
 .content h1{
     margin-bottom: 0.5em ;
+    line-height: 1;
 }
 
 .firstp{
     margin-bottom: 1.15em;
+    line-height: 1.5;
+}
+
+/* prep */
+
+.preperation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.5em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.preperation h3{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 0.5em;
+}
+
+.preperation ul{
+    margin-left: 1.5em;
+    margin-right: 1em;
+}
+
+li p{
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+.b{
+    font-weight: bold;
 }
