@@ -17,6 +17,15 @@ h1{
   font-size: 2.3em;
 }
 
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 1.8em;
+    color: hsl(14, 45%, 36%);
+}
+
+
+
 h3{
     font-family: "Outfit", sans-serif;
     font-weight: 700;
@@ -61,11 +70,44 @@ img{
     margin-right: 1em;
 }
 
+.purple{
+    line-height: 1.5;
+}
+
 li p{
     margin-left: 1em;
     margin-bottom: 0.5em;
 }
 
+.p::marker{
+    color: hsl(332, 51%, 32%);
+}
+
 .b{
     font-weight: bold;
+}
+
+
+/* ingredients */
+
+.Ingredients{
+    margin-bottom: 1.5em;
+}
+
+.br::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.brown{
+    margin-left: 1.5em;
+    line-height: 1.5;
+}
+
+.Ingredients h2{
+    margin-bottom: 0.5em;
+}
+
+hr{
+    opacity: 0.6;
+    margin-bottom: 1.5em;
 }
