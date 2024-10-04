@@ -111,3 +111,27 @@ hr{
     opacity: 0.6;
     margin-bottom: 1.5em;
 }
+
+/* Instructions */
+
+.instructions{
+    margin-bottom: 1.5em;
+}
+
+.instructions h2{
+    margin-bottom: 0.5em;
+}
+
+.br2::marker{
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+ol{
+    margin-left: 1.5em;
+    line-height: 1.5;
+}
+
+/* nutrition */
+
