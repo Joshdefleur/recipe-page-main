@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: hsl(30, 18%, 87%) ;
+}
+
+.page{
+    background-color: white;
+}
+
 p{
     font-size: 16px;
     font-family: "Outfit", sans-serif;
@@ -171,6 +179,44 @@ ol{
 
 li h4{
     margin-bottom: 0.5em;
+}
+
+
+/* media query */
+
+@media only screen and (min-width: 784px){
+    .page{
+        max-width: 700px;
+        margin: 6em 0;
+        border-radius: 20px;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+    }
+
+    .image{
+        padding: 2em 2em 0 2em;
+    }
+
+    img{
+        border-radius: 20px;
+    }
+
+    .who{
+        margin-left: 1em;
+    }
+
+    .wee li{
+        margin-left: 2.6em;
+    }
+
+    p{
+        font-weight: 500;
+    }
+
+
 }
 
 
